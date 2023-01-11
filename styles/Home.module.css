@@ -1,10 +1,60 @@
 .main {
+  padding: 4rem;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+.menu a {
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.flex li {
+  display: inline-flex;
+  padding: 5px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.p1 {
+  padding: 20px;
+}
+.title {
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.trend {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+}
+
+.blocklogsignin {
+  display: flex;
+}
+
+.blocklogsignin a{
+  display: flex;
+  padding: 15px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.postmovie {
+  height: 250px;
 }
 
 .description {
@@ -41,7 +91,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
+  grid-template-rows: initial;
   width: var(--max-width);
   max-width: 100%;
 }
@@ -77,7 +127,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 4rem 0;
+  padding: 1rem 0;
 }
 
 .center::before {
