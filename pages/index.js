@@ -27,9 +27,9 @@ export default function Home() {
       </Head>
 
       <div className={styles["navbar"] + " " + styles["container"]}>
-        <Image src="./image.svg" alt="" width={100} height={100}/>
+        <Image src="./image.svg" alt="" width={75} height={75}/>
         <div className={styles.menu}>
-          <Link href="/accueil">Accueil</Link>
+          <Link href="/">Accueil</Link>
           <Link href="/series">Séries</Link>
           <Link href="/animes">Animes</Link>
           <Link href="/top">Top de la semaine</Link>
